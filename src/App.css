@@ -1,4 +1,53 @@
+.app {
+  font-size: 0.75em;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  padding: 0 24px;
+  box-sizing: border-box;
+  max-width: 1280px;
+}
+
+.attraction_detail {
+  width: 100%;
+  min-width: 1024px;
+  max-width: 1132px;
+  border: none;
+  background-color: transparent;
+  margin: 0 auto;
+}
+
+.attraction_detail #BODYCON {
+  margin-top: 0 !important;
+  width: 100%;
+  min-width: 1024px;
+  max-width: 1132px;
+  padding-bottom: 15px;
+  zoom: 1;
+}
+
 .ui_columns {
+  padding-top: 20px;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  margin-left: -12px;
+  margin-right: -12px;
+  box-sizing: border-box;
+}
+
+.ui_column {
+  display: block;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.sidebar_column {
   float: right;
   flex: none;
   width: 33.33333333%;
@@ -7,7 +56,8 @@
   box-sizing: border-box;
 }
 
-.app {
-  font-size: 0.75em;
-  background-color: #fff;
+.attraction_column {
+  flex: none;
+  width: 66.66666667%;
+  padding-bottom: 0;
 }
