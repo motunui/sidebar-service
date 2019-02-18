@@ -1,0 +1,36 @@
+.label_button {
+  padding: 0px 8px 8px 0px;
+}
+
+.label_tag {
+  font-size: 12px;
+  line-height: 16px;
+  padding: 11px 12px 10px;
+  box-shadow: none;
+  border-radius: 2px;
+  background-color: #fff;
+  text-align: center;
+  border: 1px solid;
+  cursor: pointer;
+  float: left;
+}
+
+.label_tag:not(:hover) {
+  border-color: #e5e5e5;
+  color: #4a4a4a;
+}
+
+.label_tag:hover {
+  text-decoration: none;
+  border-color: #00a680;
+  color: #00a680;
+  box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+a,
+a:visited,
+a:active {
+  color: #069;
+  text-decoration: none;
+  outline: none;
+}

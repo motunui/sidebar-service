@@ -1,0 +1,13 @@
+.ui_columns {
+  float: right;
+  flex: none;
+  width: 33.33333333%;
+  display: block;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.app {
+  font-size: 0.75em;
+  background-color: #fff;
+}
