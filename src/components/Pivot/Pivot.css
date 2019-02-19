@@ -1,0 +1,85 @@
+.pivot_wrapper {
+  padding: 32px 0px 12px;
+  margin: 0;
+}
+
+.pivot_product {
+  margin: 0;
+  padding: 0;
+}
+
+.pivot_header {
+  font-family: Arial;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+  color: #000a12;
+}
+
+.pivot_photo {
+  margin: 0;
+  padding: 0;
+}
+
+.pivot_image {
+  padding: 18px 0px;
+  width: 395px;
+  height: 223px;
+}
+
+img {
+  vertical-align: text-top;
+  border: 0;
+}
+
+.label_container {
+  padding: 0px;
+  position: relative;
+  box-sizing: border-box;
+  max-width: 1280px;
+}
+
+.label_tag_group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pivot_see {
+  color: #00a680;
+  padding-top: 6px;
+  margin: 0;
+}
+
+.pivot_link {
+  color: #00a680;
+  font-weight: bold;
+}
+
+.pivot_chevron {
+  line-height: 16px;
+  padding: 8px;
+  font-size: 10px;
+}
+
+.pivot_chevron:before {
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: inherit;
+  line-height: 1;
+}
+
+a,
+a:visited,
+a:active {
+  color: #069;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
