@@ -33,23 +33,21 @@ library.add(
 class App extends Component {
   render() {
     return (
-      <div className={cls.app}>
-        <div className={cls.container}>
-          <div className={cls.attraction_detail}>
-            <div id="BODYCON">
-              <div className={cls.ui_columns}>
-                <div
-                  className={[cls.attraction_column, cls.ui_column].join(' ')}
-                />
-                <div className={[cls.sidebar_column, cls.ui_column].join(' ')}>
-                  <Route exact path="/:id" component={Sidebar} />
-                  <Sidebar />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      // <div className={cls.app}>
+      // <div className={cls.container}>
+      //   <div className={cls.attraction_detail}>
+      //     <div id="BODYCON">
+      // <div className={cls.ui_columns}>
+      //   <div className={[cls.attraction_column, cls.ui_column].join(' ')} />
+      // <div className={[cls.sidebar_column, cls.ui_column].join(' ')}>
+      // <Route exact path="/:id" component={Sidebar} />
+      <Sidebar />
+      // </div>
+      // </div>
+      //     </div>
+      //   </div>
+      // </div>
+      // </div>
     );
   }
 }
