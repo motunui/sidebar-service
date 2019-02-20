@@ -12,12 +12,16 @@ import {
   faGlobe,
   faCar,
   faPhone,
-  faChevronCircleRight
+  faChevronRight,
+  faChevronCircleRight,
+  faCircle
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
   faMapMarkerAlt,
   faChevronCircleRight,
+  faChevronRight,
+  faCircle,
   faClock,
   faFilm,
   faGlobe,
