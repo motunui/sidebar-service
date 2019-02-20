@@ -13,7 +13,7 @@
   cursor: pointer;
 }
 
-img {
+.map_static > img {
   vertical-align: text-top;
   border: 0;
   width: 364px;
