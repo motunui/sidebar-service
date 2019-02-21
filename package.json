@@ -13,8 +13,10 @@
   ],
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "rimraf build && webpack --w --config webpack.config.prod.js --profile --color",
-    "serve": "nodemon --inspect server/server.js"
+    "build": "rimraf build && webpack --config webpack.config.prod.js --profile --color",
+    "serve": "nodemon server/server.js",
+    "build-dev": "rimraf build && webpack --w --config webpack.config.prod.js --profile --color",
+    "serve-dev": "nodemon --inspect server/server.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.15",
