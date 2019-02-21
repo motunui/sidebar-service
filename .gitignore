@@ -30,6 +30,3 @@ public/
 
 # database
 server/.db/**
-
-#config files
-/server/config/index.js
