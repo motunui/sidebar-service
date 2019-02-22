@@ -3,12 +3,14 @@ const express = require('express');
 const cors = require('cors');
 const morgan = require('morgan');
 const config = require('./config');
+const compress = require('compression');
 
 const server = express();
 
 server.use(cors());
-server.use(express.json());
+server.use(compress());
 server.use(morgan('dev'));
+server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
 server.use(express.static(path.join(__dirname, '../build')));
 
