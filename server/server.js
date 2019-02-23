@@ -12,6 +12,13 @@ server.use(compress());
 server.use(morgan('dev'));
 server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
+
+server.get('*.js', (req, res, next) => {
+  req.url = req.url + '.gz';
+  res.set('Content-Encoding', 'gzip');
+  next();
+});
+
 server.use(express.static(path.join(__dirname, '../build')));
 
 server.listen(config.PORT, () => {
@@ -19,5 +26,5 @@ server.listen(config.PORT, () => {
 });
 
 server.get('*', (req, res) => {
-  res.sendfile(path.join(__dirname, '../build/index.html'));
+  res.sendFile(path.join(__dirname, '../build/index.html'));
 });
