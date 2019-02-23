@@ -11,7 +11,10 @@ export default (params) => {
       <div className={cls.pivot_product}>
         <span className={cls.pivot_header}>Related Punta Cana Experiences</span>
         <div className={cls.pivot_photo}>
-          <img src={pizzaImage} className={cls.pivot_image} />
+          <img
+            src="/assets/images/pizzaImage.jpg"
+            className={cls.pivot_image}
+          />
         </div>
         <div className={cls.label_container}>
           <div className={cls.label_tag_group}>

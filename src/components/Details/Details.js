@@ -14,7 +14,7 @@ export default ({ match }) => {
       <div className={cls.map_wrapper}>
         <div className={cls.map_static}>
           <span>
-            <img src={pizzaImage} />
+            <img src="/assets/images/pizzaImage.jpg" />
           </span>
         </div>
       </div>
