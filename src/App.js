@@ -40,8 +40,8 @@ class App extends Component {
       // <div className={cls.ui_columns}>
       //   <div className={[cls.attraction_column, cls.ui_column].join(' ')} />
       // <div className={[cls.sidebar_column, cls.ui_column].join(' ')}>
-      // <Route exact path="/:id" component={Sidebar} />
-      <Sidebar />
+      <Route exact path="/:id" component={Sidebar} />
+      // <Sidebar />
       // </div>
       // </div>
       //     </div>
